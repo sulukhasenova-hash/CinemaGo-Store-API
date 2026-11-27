@@ -1,0 +1,29 @@
+﻿# Конфигурации с паролями и токенами
+migration.local.php
+api/config.php
+shop/config.php
+.env
+.env.*
+
+# Базы данных и резервные копии
+*.sqlite
+*.sqlite3
+*.db
+*.dbd
+*.bak
+*.zip
+api/storage/
+
+# Временные файлы
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# PHP и IDE
+vendor/
+.idea/
+.vscode/
+
+# Резервные копии PHP
+shop/*_backup.php
